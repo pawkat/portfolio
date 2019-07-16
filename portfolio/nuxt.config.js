@@ -34,6 +34,15 @@ module.exports = {
         })
       }
     }
+  },
+  /*
+  ** Include sass files
+   */
+  modules: ['@nuxtjs/style-resources'],
+  styleResources: {
+    sass: [
+      'assets/sass/main.sass'
+    ]
   }
 }
 

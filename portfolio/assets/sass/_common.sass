@@ -1,0 +1,39 @@
+.container
+  min-height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  text-align: center
+
+.wrapper
+  max-width: 1280px
+  padding: 0 20px
+  margin: 0 auto
+
+.title
+  display: block
+  font-weight: 300
+  font-size: 100px
+  letter-spacing: 1px
+  +lg
+    font-size: 75px
+  +md
+    font-size: 50px
+  +sm
+    font-size: 38px
+
+.subtitle
+  font-weight: 300
+  font-size: 42px
+  word-spacing: 5px
+  padding-bottom: 15px
+
+.hint
+  font-weight: 300
+
+a
+  color: inherit
+  text-decoration: none
+  transition: color .3s ease
+  &:hover
+    color: $white
